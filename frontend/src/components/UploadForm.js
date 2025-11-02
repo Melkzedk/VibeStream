@@ -104,7 +104,7 @@ export default function UploadForm({ onUpload }) {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        💡 “Your story deserves the spotlight!”
+        💡 “Your story deserves the spotlight.!”
       </motion.p>
     </motion.div>
   );
