@@ -57,7 +57,7 @@ Database	MongoDB (local or cloud)
 Storage	Local /uploads folder (can be upgraded to AWS S3 or Cloudinary)
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/cliphub.git
+https://github.com/Melkzedk/VibeStream.git
 cd cliphub
 
 2️⃣ Backend setup
@@ -152,7 +152,7 @@ Displays: © All rights reserved MelkTech
 🧑‍💻 Author
 
 MelkTech
-📧 Email: melkzedek@example.com
+📧 Email: melkywafula29@gmail.com
  (optional placeholder)
 💼 Portfolio: melktech.dev
  (placeholder)
