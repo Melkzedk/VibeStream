@@ -23,7 +23,7 @@ function App() {
         <UploadForm onUpload={fetchVideos} />
         <VideoList videos={videos} />
       </div>
-      <Footer /> {/* ✅ Footer added here */}
+      <Footer /> 
     </div>
   );
 }
