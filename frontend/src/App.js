@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import API from "./api";
 import UploadForm from "./components/UploadForm";
 import VideoList from "./components/VideoList";
-import Footer from "./components/Footer";  // ✅ import the footer
+import Footer from "./components/Footer";
 
 function App() {
   const [videos, setVideos] = useState([]);
