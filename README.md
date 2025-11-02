@@ -47,7 +47,9 @@ cliphub/
 │   └── package.json
 │
 └── README.md
-
+## PROJECT SCREENSHOT
+<img width="1919" height="583" alt="Screenshot 2025-11-02 130447" src="https://github.com/user-attachments/assets/f0c5dc35-61f7-4e65-ab4e-57ab41597ce1" />
+<img width="1859" height="945" alt="Screenshot 2025-11-02 130542" src="https://github.com/user-attachments/assets/9a1f640e-40f1-4084-bd3a-d1520496bd78" />
 
 🧩 Tech Stack
 Layer	Technologies
