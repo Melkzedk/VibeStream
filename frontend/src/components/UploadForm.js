@@ -6,12 +6,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function UploadForm({ onUpload }) {
   const [title, setTitle] = useState("");
   const [video, setVideo] = useState(null);
+  const [preview, setPreview] = useState(null);
   const [uploading, setUploading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!video) return alert("Select a video first!");
     setUploading(true);
+
     const formData = new FormData();
     formData.append("title", title);
     formData.append("video", video);
@@ -22,8 +24,16 @@ export default function UploadForm({ onUpload }) {
 
     setTitle("");
     setVideo(null);
+    setPreview(null);
     setUploading(false);
     onUpload();
+  };
+
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    setVideo(file);
+    setPreview(URL.createObjectURL(file)); // ✅ create a temporary preview URL
   };
 
   return (
@@ -57,8 +67,26 @@ export default function UploadForm({ onUpload }) {
           type="file"
           accept="video/*"
           className="form-control mb-3"
-          onChange={(e) => setVideo(e.target.files[0])}
+          onChange={handleFileChange}
         />
+
+        {/* ✅ Video preview section */}
+        {preview && (
+          <motion.div
+            className="text-center mb-3"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h6 className="text-muted mb-2">🎬 Preview:</h6>
+            <video
+              src={preview}
+              controls
+              className="w-100 rounded shadow-sm"
+              style={{ maxHeight: "300px", objectFit: "cover" }}
+            />
+          </motion.div>
+        )}
 
         <motion.button
           whileHover={{ scale: 1.05 }}
@@ -76,7 +104,7 @@ export default function UploadForm({ onUpload }) {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        💡 “Your story deserves the spotlight!!”
+        💡 “Your story deserves the spotlight!!!”
       </motion.p>
     </motion.div>
   );
