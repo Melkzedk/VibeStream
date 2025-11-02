@@ -53,6 +53,9 @@ cliphub/
 
 <img width="1859" height="945" alt="Screenshot 2025-11-02 130542" src="https://github.com/user-attachments/assets/9a1f640e-40f1-4084-bd3a-d1520496bd78" />
 
+<img width="1919" height="1046" alt="Screenshot 2025-11-02 165632" src="https://github.com/user-attachments/assets/9f4e2fd1-6c40-4939-9169-70a180f29b52" />
+
+
 
 🧩 Tech Stack
 Layer	Technologies
