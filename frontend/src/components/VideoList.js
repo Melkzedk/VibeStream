@@ -18,7 +18,7 @@ export default function VideoList({ videos }) {
                 download
                 className="btn btn-sm btn-success mt-2"
               >
-                Download
+                Download!
               </a>
             </div>
           </div>
