@@ -11,7 +11,7 @@ export default function UploadForm({ onUpload }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!video) return alert("Select a video first!");
+    if (!video) return alert("Select a video first!!");
     setUploading(true);
 
     const formData = new FormData();
