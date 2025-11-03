@@ -15,8 +15,6 @@ It allows users to upload, preview, view, download, and delete videos easily —
 
 ❌ Delete videos (removes both file and database record)
 
-💬 Catchphrases and animations for a friendly user experience
-
 🦋 Built with Framer Motion for smooth UI transitions
 
 📱 Responsive design using Bootstrap
@@ -32,7 +30,7 @@ cliphub/
 │   │   └── videoController.js
 │   ├── models/
 │   │   └── Video.js
-│   ├── uploads/                # stores uploaded videos
+│   ├── uploads/                # store uploaded videos
 │   └── package.json
 │
 ├── frontend/
