@@ -11,6 +11,7 @@ function Navbar() {
             <li><a href="/about">About</a></li> 
             <li><a href="/contact">Contact</a></li>
             <li><a href="Help">Help</a></li>
+            <li></li>
         </ul>
     </nav>
   );
