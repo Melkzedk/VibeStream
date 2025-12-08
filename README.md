@@ -45,7 +45,7 @@ cliphub/
 │   └── package.json
 │
 └── README.md
-## PROJECT SCREENSHOT
+## PROJECT SCREENSHOTS
 
 <img width="1919" height="583" alt="Screenshot 2025-11-02 130447" src="https://github.com/user-attachments/assets/f0c5dc35-61f7-4e65-ab4e-57ab41597ce1" />
 
