@@ -3,7 +3,7 @@
 ClipHub is a simple, modern video-sharing platform built with React, Node.js, Express, and MongoDB.
 It allows users to upload, preview, view, download, and delete videos easily — like a lightweight YouTube clone.
 
-🚀 Features
+🚀 Feature
 
 🎥 Upload videos with custom titles
 
